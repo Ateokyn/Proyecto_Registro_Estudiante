@@ -7,7 +7,7 @@ package estudiante;
 
 /**
  *
- * @author Windows 10
+ * @author Kentry Gutter
  */
 public class Estudiante {
     
