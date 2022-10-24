@@ -150,7 +150,9 @@ public class principalMDIAplication extends javax.swing.JFrame {
 
     private void btnAcercaDeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAcercaDeActionPerformed
         // TODO add your handling code here:
-        JOptionPane.showMessageDialog(null,"Creador : Kentry Gutter\nRedes sociales\nFacebook : Kentry Gutter\nWhatsApp : 505 83347188");
+      InternalInformacion inf = new InternalInformacion();
+      desktopPane.add(inf);
+      inf.show();
     }//GEN-LAST:event_btnAcercaDeActionPerformed
 
     /**
