@@ -88,19 +88,9 @@ public class InternalFrameEstudiante extends javax.swing.JInternalFrame {
 
         jtxtNivel.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jtxtNivel.setForeground(new java.awt.Color(153, 153, 153));
-        jtxtNivel.setText("Escribe tu nivel...");
-        jtxtNivel.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusGained(java.awt.event.FocusEvent evt) {
-                jtxtNivelFocusGained(evt);
-            }
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                jtxtNivelFocusLost(evt);
-            }
-        });
 
         jtxtCarrera.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jtxtCarrera.setForeground(new java.awt.Color(153, 153, 153));
-        jtxtCarrera.setText("Escribe tu carrera...");
         jtxtCarrera.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 jtxtCarreraFocusGained(evt);
@@ -112,7 +102,6 @@ public class InternalFrameEstudiante extends javax.swing.JInternalFrame {
 
         jtxtApellido.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jtxtApellido.setForeground(new java.awt.Color(153, 153, 153));
-        jtxtApellido.setText("Escribe tus apellidos...");
         jtxtApellido.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 jtxtApellidoFocusGained(evt);
@@ -124,7 +113,6 @@ public class InternalFrameEstudiante extends javax.swing.JInternalFrame {
 
         jtxtNombre.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jtxtNombre.setForeground(new java.awt.Color(153, 153, 153));
-        jtxtNombre.setText("Escribe tus nombres...");
         jtxtNombre.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 jtxtNombreFocusGained(evt);
@@ -136,16 +124,7 @@ public class InternalFrameEstudiante extends javax.swing.JInternalFrame {
 
         jtxtCarnet.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jtxtCarnet.setForeground(new java.awt.Color(153, 153, 153));
-        jtxtCarnet.setText("Escribe tu carnet...");
         jtxtCarnet.setToolTipText("");
-        jtxtCarnet.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusGained(java.awt.event.FocusEvent evt) {
-                jtxtCarnetFocusGained(evt);
-            }
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                jtxtCarnetFocusLost(evt);
-            }
-        });
 
         btnAgregar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         btnAgregar.setForeground(new java.awt.Color(0, 0, 255));
@@ -268,22 +247,6 @@ public class InternalFrameEstudiante extends javax.swing.JInternalFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jtxtNivelFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jtxtNivelFocusGained
-        // TODO add your handling code here:
-        if (jtxtNivel.getText().trim().equals("Escribe tu nivel...")) {
-            jtxtNivel.setText("");
-        }
-        jtxtNivel.setForeground(new Color(0, 0, 0));
-    }//GEN-LAST:event_jtxtNivelFocusGained
-
-    private void jtxtNivelFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jtxtNivelFocusLost
-        // TODO add your handling code here:
-        if (jtxtNivel.getText().trim().equals("")) {
-            jtxtNivel.setText("Escribe tu nivel...");
-        }
-        jtxtNivel.setForeground(new Color(153, 153, 153));
-    }//GEN-LAST:event_jtxtNivelFocusLost
-
     private void jtxtCarreraFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jtxtCarreraFocusGained
         // TODO add your handling code here:
         if (jtxtCarrera.getText().trim().equals("Escribe tu carrera...")) {
@@ -331,25 +294,6 @@ public class InternalFrameEstudiante extends javax.swing.JInternalFrame {
         }
         jtxtNombre.setForeground(new Color(153, 153, 153));
     }//GEN-LAST:event_jtxtNombreFocusLost
-
-    private void jtxtCarnetFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jtxtCarnetFocusGained
-        // TODO add your handling code here:
-        if (jtxtCarnet.getText().trim().equals("Escribe tu carnet...")) {
-            jtxtCarnet.setText("");
-            jtxtCarnet.setForeground(new Color(153, 153, 153));
-        } 
-        jtxtCarnet.setForeground(new Color(0, 0, 0));
-
-    }//GEN-LAST:event_jtxtCarnetFocusGained
-
-    private void jtxtCarnetFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jtxtCarnetFocusLost
-        // TODO add your handling code here:
-        if (jtxtCarnet.getText().trim().equals("")) {
-            jtxtCarnet.setText("Escribe tu carnet...");
-        }
-        jtxtCarnet.setForeground(new Color(153, 153, 153));
-
-    }//GEN-LAST:event_jtxtCarnetFocusLost
 
     private void btnAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarActionPerformed
         // TODO add your handling code here:

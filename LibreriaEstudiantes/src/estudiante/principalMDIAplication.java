@@ -83,7 +83,7 @@ public class principalMDIAplication extends javax.swing.JFrame {
             desktopPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(desktopPaneLayout.createSequentialGroup()
                 .addComponent(jToolBar1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 406, Short.MAX_VALUE))
+                .addContainerGap(406, Short.MAX_VALUE))
         );
 
         menuBar.setBackground(new java.awt.Color(204, 204, 204));
@@ -150,15 +150,17 @@ public class principalMDIAplication extends javax.swing.JFrame {
 
     private void btnAcercaDeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAcercaDeActionPerformed
         // TODO add your handling code here:
-      InternalInformacion inf = new InternalInformacion();
-      desktopPane.add(inf);
-      inf.show();
+        InternalInformacion Inf = new InternalInformacion();
+        desktopPane.add(Inf);
+        Inf.show();
+        
     }//GEN-LAST:event_btnAcercaDeActionPerformed
 
     /**
      * @param args the command line arguments
      */
     public static void main(String args[]) {
+        
         
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -194,6 +196,7 @@ public class principalMDIAplication extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenu JMenuAcerca;
     private javax.swing.JButton btnAcercaDe;
+    private javax.swing.JButton btnCerrarInfo;
     private javax.swing.JButton btnEstudiante;
     private javax.swing.JDesktopPane desktopPane;
     private javax.swing.JMenuItem exitMenuItem;
