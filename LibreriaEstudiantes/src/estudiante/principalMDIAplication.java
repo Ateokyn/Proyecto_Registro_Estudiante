@@ -145,7 +145,7 @@ public class principalMDIAplication extends javax.swing.JFrame {
 
     private void menuItemInformacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemInformacionActionPerformed
         // TODO add your handling code here:
-        JOptionPane.showMessageDialog(null,"Creador : Kentry Gutter\nRedes sociales\nFacebook : Kentry Gutter\nWhatsApp : 505 83347188");
+        JOptionPane.showMessageDialog(null,"Creador : Kenny Tellez.O\nRedes sociales\nFacebook : Kentry Gutter\nWhatsApp : 505 83347188");
     }//GEN-LAST:event_menuItemInformacionActionPerformed
 
     private void btnAcercaDeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAcercaDeActionPerformed
