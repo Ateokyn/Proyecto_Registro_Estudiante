@@ -52,7 +52,7 @@ public class InternalInformacion extends javax.swing.JInternalFrame {
         jLabel3.setText("Redes Sociales : ");
 
         jLabel5.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        jLabel5.setText("Creado por : Kentry Gutter</>");
+        jLabel5.setText("Creado por : Kenny Tellez.O</>");
 
         jLabel2.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
         jLabel2.setText("NetBeans IDE 8.2");
@@ -110,18 +110,6 @@ public class InternalInformacion extends javax.swing.JInternalFrame {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnCerrarInfo;
-    private javax.swing.JButton btnCerrarInfo1;
-    private javax.swing.JButton btnCerrarInfo10;
-    private javax.swing.JButton btnCerrarInfo11;
-    private javax.swing.JButton btnCerrarInfo2;
-    private javax.swing.JButton btnCerrarInfo3;
-    private javax.swing.JButton btnCerrarInfo4;
-    private javax.swing.JButton btnCerrarInfo5;
-    private javax.swing.JButton btnCerrarInfo6;
-    private javax.swing.JButton btnCerrarInfo7;
-    private javax.swing.JButton btnCerrarInfo8;
-    private javax.swing.JButton btnCerrarInfo9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
