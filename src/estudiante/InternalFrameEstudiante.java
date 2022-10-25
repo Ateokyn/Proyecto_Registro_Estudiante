@@ -87,10 +87,8 @@ public class InternalFrameEstudiante extends javax.swing.JInternalFrame {
         jLabel4.setText("Nivel :");
 
         jtxtNivel.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jtxtNivel.setForeground(new java.awt.Color(153, 153, 153));
 
         jtxtCarrera.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jtxtCarrera.setForeground(new java.awt.Color(153, 153, 153));
         jtxtCarrera.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 jtxtCarreraFocusGained(evt);
@@ -101,7 +99,6 @@ public class InternalFrameEstudiante extends javax.swing.JInternalFrame {
         });
 
         jtxtApellido.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jtxtApellido.setForeground(new java.awt.Color(153, 153, 153));
         jtxtApellido.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 jtxtApellidoFocusGained(evt);
@@ -112,18 +109,8 @@ public class InternalFrameEstudiante extends javax.swing.JInternalFrame {
         });
 
         jtxtNombre.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jtxtNombre.setForeground(new java.awt.Color(153, 153, 153));
-        jtxtNombre.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusGained(java.awt.event.FocusEvent evt) {
-                jtxtNombreFocusGained(evt);
-            }
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                jtxtNombreFocusLost(evt);
-            }
-        });
 
         jtxtCarnet.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jtxtCarnet.setForeground(new java.awt.Color(153, 153, 153));
         jtxtCarnet.setToolTipText("");
 
         btnAgregar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -249,51 +236,19 @@ public class InternalFrameEstudiante extends javax.swing.JInternalFrame {
 
     private void jtxtCarreraFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jtxtCarreraFocusGained
         // TODO add your handling code here:
-        if (jtxtCarrera.getText().trim().equals("Escribe tu carrera...")) {
-            jtxtCarrera.setText("");
-        }
-        jtxtCarrera.setForeground(new Color(0, 0, 0));
     }//GEN-LAST:event_jtxtCarreraFocusGained
 
     private void jtxtCarreraFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jtxtCarreraFocusLost
         // TODO add your handling code here:
-        if (jtxtCarrera.getText().trim().equals("")) {
-            jtxtCarrera.setText("Escribe tu carrera...");
-        }
-        jtxtCarrera.setForeground(new Color(153, 153, 153));
     }//GEN-LAST:event_jtxtCarreraFocusLost
 
     private void jtxtApellidoFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jtxtApellidoFocusGained
         // TODO add your handling code here:
-        if (jtxtApellido.getText().trim().equals("Escribe tus apellidos...")) {
-            jtxtApellido.setText("");
-        }
-        jtxtApellido.setForeground(new Color(0, 0, 0));
     }//GEN-LAST:event_jtxtApellidoFocusGained
 
     private void jtxtApellidoFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jtxtApellidoFocusLost
         // TODO add your handling code here:
-        if (jtxtApellido.getText().trim().equals("")) {
-            jtxtApellido.setText("Escribe tus apellidos...");
-        }
-        jtxtApellido.setForeground(new Color(153, 153, 153));
     }//GEN-LAST:event_jtxtApellidoFocusLost
-
-    private void jtxtNombreFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jtxtNombreFocusGained
-        // TODO add your handling code here:
-        if (jtxtNombre.getText().trim().equals("Escribe tus nombres...")) {
-            jtxtNombre.setText("");
-        }
-        jtxtNombre.setForeground(new Color(0, 0, 0));
-    }//GEN-LAST:event_jtxtNombreFocusGained
-
-    private void jtxtNombreFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jtxtNombreFocusLost
-        // TODO add your handling code here:
-        if (jtxtNombre.getText().trim().equals("")) {
-            jtxtNombre.setText("Escribe tus nombres...");
-        }
-        jtxtNombre.setForeground(new Color(153, 153, 153));
-    }//GEN-LAST:event_jtxtNombreFocusLost
 
     private void btnAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarActionPerformed
         // TODO add your handling code here:
